@@ -1,0 +1,89 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    letter-spacing: .2em;
+    color: white;
+    background-color: grey;
+}
+
+
+/* HEADER */
+.intro {
+    width: 94%;
+    background-color:black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.first {
+   color: orange;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    align-self: center;
+    font-size: 5em;
+
+}
+
+.lauren {
+    border: 5px solid orange;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+hr {
+    margin-bottom: 1em;
+    padding: .1em;
+    border-radius: 5px;
+}
+
+
+/* MAIN */
+.content {
+    width: 94%;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cats {
+    margin-top: 8em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.catpic {
+    border-radius: 5px;
+    border: 5px solid orange;
+    margin-left: 1em;
+    margin-right: 3em;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.linked {
+    align-self: center;
+}
+
